@@ -16,7 +16,7 @@ const instagramPosts = [
 
 export function InstagramGallery() {
     return (
-        <section className="py-20 bg-white dark:bg-black">
+        <section id="projects" className="py-20 bg-white dark:bg-black">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col items-center justify-center mb-12 text-center">
                     <Link
