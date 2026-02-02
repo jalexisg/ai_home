@@ -59,7 +59,7 @@ export function Header() {
                         </Link>
                     ))}
                     <Link
-                        href="https://wa.me/573000000000" // Replace with real number
+                        href="https://wa.me/573001842017"
                         className={cn(
                             "flex items-center gap-2 px-4 py-2 rounded-full font-medium transition-all",
                             isScrolled

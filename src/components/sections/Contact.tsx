@@ -31,7 +31,7 @@ export function Contact() {
                             </p>
                             <div className="flex gap-4 pt-4">
                                 <a
-                                    href="https://wa.me/573000000000"
+                                    href="https://wa.me/573001842017"
                                     className="flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 rounded-lg font-medium transition"
                                     target="_blank"
                                     rel="noopener noreferrer"

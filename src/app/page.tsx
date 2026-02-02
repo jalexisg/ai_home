@@ -25,7 +25,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             <Link
-              href="https://wa.me/573000000000"
+              href="https://wa.me/573001842017"
               className="px-8 py-4 bg-primary text-white rounded-lg font-bold text-lg hover:bg-red-700 transition shadow-lg hover:shadow-primary/25"
             >
               Cotizar Proyecto
