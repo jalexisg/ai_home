@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
-      <section className="relative h-screen flex flex-col items-center justify-center text-center p-4 bg-gradient-to-b from-black/80 to-black/40 text-white overflow-hidden">
+      <section id="hero" className="relative h-screen flex flex-col items-center justify-center text-center p-4 bg-gradient-to-b from-black/80 to-black/40 text-white overflow-hidden">
         {/* Background Overlay or Image Placeholder */}
         <div className="absolute inset-0 bg-zinc-900 -z-10">
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>

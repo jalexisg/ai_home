@@ -6,7 +6,7 @@ import { Menu, X, Phone } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navigation = [
-    { name: "Inicio", href: "/" },
+    { name: "Inicio", href: "#hero" },
     { name: "Servicios", href: "#services" },
     { name: "Nosotros", href: "#about" },
     { name: "Proyectos", href: "#projects" },
