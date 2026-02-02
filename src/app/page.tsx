@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import experienceImage from "../../public/images/experience.png";
 import { Services } from "@/components/sections/Services";
 import { Contact } from "@/components/sections/Contact";
 import { InstagramGallery } from "@/components/sections/InstagramGallery";
@@ -71,9 +72,10 @@ export default function Home() {
           </div>
           <div className="relative h-64 md:h-96 rounded-xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/experience.png"
+              src={experienceImage}
               alt="Casa Campestre Moderna en Mesa de los Santos"
               fill
+              placeholder="blur"
               className="object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
