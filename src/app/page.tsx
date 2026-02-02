@@ -1,6 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Services } from "@/components/sections/Services";
 import { Contact } from "@/components/sections/Contact";
+import { InstagramGallery } from "@/components/sections/InstagramGallery";
 
 export default function Home() {
   return (
@@ -40,7 +42,7 @@ export default function Home() {
 
       <Services />
 
-      {/* About Section Placeholder */}
+      {/* About Section */}
       <section id="about" className="py-20 container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
@@ -67,13 +69,18 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <div className="h-64 md:h-96 bg-gray-200 rounded-xl flex items-center justify-center overflow-hidden">
-            {/* Placeholder for About Image - could use another unsplash image */}
-            <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1621293954908-05d61c34153b?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center"></div>
+          <div className="relative h-64 md:h-96 rounded-xl overflow-hidden shadow-2xl">
+            <Image
+              src="/images/experience.png"
+              alt="Casa Campestre Moderna en Mesa de los Santos"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-700"
+            />
           </div>
         </div>
       </section>
 
+      <InstagramGallery />
       <Contact />
     </main>
   );
