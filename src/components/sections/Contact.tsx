@@ -16,9 +16,10 @@ export function Contact() {
         setStatus("submitting");
 
         // EmailJS Credentials
-        const serviceId = "service_q5w2r3v";
-        const templateId = "template_ciidd8h";
-        const publicKey = "G1PouWn7nHK-EKEpb";
+        // EmailJS Credentials
+        const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "";
+        const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "";
+        const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "";
 
         emailjs
             .sendForm(serviceId, templateId, form.current, publicKey)
